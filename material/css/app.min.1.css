@@ -15881,4 +15881,21 @@ body.login-content:before {
 .selector{
   size: 2;
   float: right;
+  margin-right: 215px;
+  border-radius: 8px;
+  margin-top: 3px;
+}
+
+.selector_date{
+    width: 224px;
+    height: 41px;
+    margin-right: 11px;
+      border-radius: 8px;
+      margin-top: 3px;
+}
+#outside_selector_date{
+  margin-left: 6px;
+}
+#selector_outside{
+margin-top:-32px;  
 }

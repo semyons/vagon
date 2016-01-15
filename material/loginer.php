@@ -25,9 +25,9 @@ if (isset($_POST['submit'])){
     		header('Location: main.html');
     	}
     	else {
-    			echo "not ok";
+    			    			echo '<script language="javascript">';
+echo 'alert("Логин или пароль неверные")';
+echo '</script>';
     		}
     }
 ?>
-
-// Проверку для пароля сделай и работает это для root root

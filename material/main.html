@@ -744,8 +744,8 @@
                 <div class="hidden">
             <form id="callback3">
                 <h2><b>Добавить заявку на перевозку</b></h2>
-                <h2><b>Перевозимый груз:</b></h2>
-                    <select class="selector" id="foo">
+                <h2><b>Перевозимый груз:</b>
+                    <select class="selector" id="foo"></h2>
 
 
 
@@ -775,14 +775,15 @@
                         
 
                     </select></h2>
-                 <h2><b>Период погрузки:</b>C 
-                 <input  type="date"> по 
-                 <input  type="date">
-                 <select class="selector">
+                 <h2><b>Период погрузки: С</b> 
+                 <input class="selector_date" id="outside_selector_date" type="date"> по 
+                 <input class="selector_date" type="date">
+                
                      
 
                  </select></h2>
-                  <h2><b>Количество вагонов:</b><select class="selector"></select></h2>
+                  <h2><b>Количество вагонов:</b><select class="selector" id="selector_outside"></select></h2>
+                  <br/>
                 <input type="submit" value="Получить вагоны">
                 <script type='text/javascript'>
     (function () {
